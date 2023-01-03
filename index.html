@@ -10,10 +10,10 @@
 <body>
     <header class="header-con">
         <div class="div-1-header">
-            <p>This site has been acquired by <b>Toptal</b></p>
+            <p><i class="fa-regular fa-circle-exclamation"></i> This site has been acquired by <b>Toptal</b></p>
             <p><a href="#">Learn More</a></p>
         </div>
-        <div class="div-2-header">
+        <div class="div-2-header gray-bg"">
             <h1>TomatoTimer</h1>
             <nav>
                 <ul class="menu">
@@ -23,11 +23,11 @@
                     <li><a href="#" target="_blank">Tweet about us!</a></li>
                 </ul>
             </nav>
-        </div>
+        </nav>
     </header>
 
     <main class="main-con">
-        <section  class="gray-bg">
+        <section class="sec-two">
             <ul>
                 <li><a href="">Pomodoro</a></li>
                 <li><a href="">Short Break</a></li>
@@ -37,9 +37,9 @@
             <div class="timer">
                 <p class="count">00:00</p>
                 <div class="timer-btns">
-                    <button>Start</button>
-                    <button>Stop</button>
-                    <button>Reset</button>
+                    <button class="green">Start</button>
+                    <button class="red">Stop</button>
+                    <button class="gray-bg">Reset</button>
                 </div>
             </div>
         </section>
@@ -48,11 +48,11 @@
             <div class="gray-bg">
                 <h2>Keyboard Shortcuts</h2>
                 <ul>
-                    <li><span>space </span>Start or Stop the timer</li>
-                    <li><span>alt + p </span>Pomodoro</li>
-                    <li><span>alt + s </span>Short Break</li>
-                    <li><span>alt + l </span>Long Break</li>
-                    <li><span>alt + r </span>Reset Timer</li>
+                    <li><span>space </span> <span class="span2">Start or Stop the timer</span></li>
+                    <li><span>alt + p</span><span class="span2">Pomodoro</span></li>
+                    <li><span>alt + s</span><span class="span2">Short Break</span></li>
+                    <li><span>alt + l</span><span class="span2">Long Break</span></li>
+                    <li><span>alt + r</span><span class="span2">Reset Timer</span></li>
                 </ul>
             </div>
 
@@ -69,6 +69,7 @@
             </div>
         </section>
     </main>
+    <script src="https://kit.fontawesome.com/1078fae975.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
 </html>

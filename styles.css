@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;600&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,7 +9,123 @@ html {
     font-size: 62.5%;
 }
 body {
+    min-height: 100vh;
+    width: 100vw;
     font-size: 14px;
     font-weight: normal;
     line-height: 1;
+    font-family: 'Fira Sans', sans-serif;
+}
+.div-1-header {
+    background-color: hsl(224, 73%, 47%);
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}
+.div-1-header a {
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+.gray-bg {
+    background-color: hsl(0, 0%, 95%);
+}
+.div-2-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    border-bottom: 1px solid hsl(0, 0%, 95%);
+}
+.menu {
+    display: flex;
+    list-style: none;
+    background: hsl(0, 0%, 30%);
+    border: 2px solid hsl(0, 0%, 25%);
+}
+.menu li {
+    padding: 10px 15px;
+    border-right: 2px solid hsl(0, 0%, 25%);
+}
+.menu a {
+    margin-right: 20px;
+    text-decoration: none;
+    color: hsl(0, 0%, 95%);
+}
+.sec-two ul {
+    width: 60%;
+    border: 1px solid hsl(0, 0%, 30%);
+    list-style: none;
+    margin: 25px auto 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: hsl(194, 65%, 48%);
+    text-align: center;
+}
+.sec-two ul li {
+    padding: 8px 0;
+    font-weight: 600;
+    border-right: 1px solid hsl(0, 0%, 30%);
+}
+.sec-two ul li > a {
+    text-decoration: none;
+    color: #fff;
+}
+.timer {
+    margin-top: 50px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+
+.timer p {
+    font-size: 80px;
+    font-weight: 600;
+}
+.timer-btns button {
+    margin-right: 20px;
+    padding: 15px 30px;
+    font-weight: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+.red {
+    color: #fff;
+    background-color: hsl(359, 86%, 42%);
+}
+.green {
+    background-color: hsl(93, 65%, 39%);
+    color: #fff;
+}
+
+.section-two {
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    gap: 25px;
+}
+.section-two span:first-of-type {
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 15px;
+}
+.span2, .gray-bg p {
+    color: hsl(0, 0%, 30%);
+    margin-bottom: 15px;
+}
+.section-two h2 {
+    margin-bottom: 15px;
+}
+.section-two > .gray-bg {
+    padding: 20px;
+}
+.gray-bg button {
+    padding: 5px 20px;
+    display: block;
+    /*margin-top: 15px;*/
 }
